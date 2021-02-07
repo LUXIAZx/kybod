@@ -25,7 +25,7 @@ thanawit-udompol@thanawit-luxiaz:~{Your-Project-Lib}$ git clone <repository>
 # Header files
 
 ```
-keybot library structure
+kybot library structure
 | Makefile
 |
 └─── include
