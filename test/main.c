@@ -1,15 +1,15 @@
 #include "std.h"
-#include "kybot.h"
-#include "platform.h"
+#include "platform/linux.h"
 
+#define EXIT 'q'
 int main(void)
 {
     char c;
-    do
+    
+    while((c = keyPress()) != EXIT)
     {
-        /* code */
         printf("press %c\n", c);
-    } while ((c = keyPress()) != 'q') ;
+    }
     
     return 0; //
 }

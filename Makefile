@@ -1,5 +1,5 @@
 build :
-	gcc -c src/kybot.c  -I include -o keybot.o
+	gcc -c src/linux.c  -I include -o keybot.o
 
 build-program :
-	gcc test/main.c -o program keybot.o -I include
+	gcc test/main.c  keybot.o -I include -o program
