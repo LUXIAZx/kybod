@@ -8,8 +8,9 @@ int main(void)
     
     while((c = keyPress()) != EXIT)
     {
-        printf("press %c\n", c);
+        printf("test press %c\n", c);
     }
+    printf("Exit\n");
     
     return 0; //
 }
