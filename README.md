@@ -11,7 +11,8 @@
 Go to project lib directory
 
 ```bash
-Foo@bar:~{Your-Project-Lib}$ git clone <repository>
+Foo@bar:~/{Your-Project-Lib}$ git clone <repository>
+Foo@bar:~/{Your-Project-Lib}$ make build
 ```
 
 # platform can use for now
